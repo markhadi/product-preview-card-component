@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./src/images/favicon-32x32.png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body class="bg-cream min-h-screen grid place-content-center px-4 py-7">
@@ -27,12 +27,12 @@
       <div class="w-full md:max-w-[300px]">
         <img
           class="rounded-tl-xl rounded-tr-xl md:hidden"
-          src="./images/image-product-mobile.jpg"
+          src="./src/images/image-product-mobile.jpg"
           alt="photo product"
         />
         <img
           class="hidden md:block md:rounded-tl-xl md:rounded-bl-xl"
-          src="./images/image-product-desktop.jpg"
+          src="./src/images/image-product-desktop.jpg"
           alt="photo product"
         />
       </div>
@@ -70,7 +70,11 @@
         <button
           class="h-12 flex items-center justify-center w-full bg-darkCyan rounded-xl hover:bg-darkCyanH transition-all duration-300"
         >
-          <img class="mr-2.5" src="./images/icon-cart.svg" alt="icon cart" />
+          <img
+            class="mr-2.5"
+            src="./src/images/icon-cart.svg"
+            alt="icon cart"
+          />
           <p class="font-sans text-sm font-medium text-white tracking-wide">
             Add to Cart
           </p>
