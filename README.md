@@ -11,5 +11,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://markhadi.github.io/product-preview-card-component/
-- Live Site URL: https://github.com/markhadi/product-preview-card-component/
+- Solution URL: https://github.com/markhadi/product-preview-card-component/
+- Live Site URL: https://markhadi.github.io/product-preview-card-component/
