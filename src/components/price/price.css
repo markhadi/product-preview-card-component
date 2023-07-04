@@ -1,0 +1,21 @@
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.price span {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  letter-spacing: 0;
+  color: var(--Dark-cyan);
+}
+
+.price del {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: var(--Dark-grayish-blue);
+}

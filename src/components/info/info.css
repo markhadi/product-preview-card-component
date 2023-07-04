@@ -1,0 +1,17 @@
+.info {
+  padding: 2.4rem;
+}
+
+.info h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: var(--Very-dark-blue);
+  margin-bottom: 1.6rem;
+}
+
+.info p {
+  color: var(--Dark-grayish-blue);
+  margin-bottom: 2.2rem;
+}

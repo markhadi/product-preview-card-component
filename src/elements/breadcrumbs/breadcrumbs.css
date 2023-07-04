@@ -1,0 +1,9 @@
+.breadcrumbs {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.415em;
+  color: var(--Dark-grayish-blue);
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
